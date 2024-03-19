@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>form</title>
+<style>
+	input[type = text]{
+		width:100px;
+		padding: 12px 20px;
+		display:inline-block;
+		border: 1px solid black;
+		border-radius:4px;
+	}
+	div{
+		border-radius:4px;
+		background-color:white;
+		padding:20px;
+		width:50%;
+		margin:auto;
+		
+	}
+	label{
+		margin-top:10px;
+		display:block;
+	}
+input[type = submit]{
+		
+		padding: 12px 20px;
+		display:inline-block;
+		border: 1px solid black;
+		border-radius:2px;
+		color:black;
+		background-color:yellow;
+	}
+.img{
+	background-image: url('https://i.pinimg.com/736x/10/9f/24/109f2461dbb2b3b5542106512c98c612.jpg');
+	background-position:centre;
+	background-size:cover;
+	position:relative;
+}
+
+
+</style>
+</head>
+<body class="img">
+<h1>A sample CSS form</h1>
+
+<div>
+	<form>
+		<label for="name">full nm:
+		<input type ="text" id="firstnm" name="firstnm" placeholder="Your name..."></label>
+		<label for="address">Address:
+		<input type ="text" id="address" name="address" placeholder="Your address..."></label>
+		<label for="phno">phone Num:
+		<input type ="tel" id="phone" name="phone" placeholder="Your contact number..."></label>
+<label for="name">Country:
+		<input type ="text" id="cntry" name="cntry" placeholder="Your cntry..."></label>
+		<label for="state">State:
+		<input type ="text" id="state" name="state" placeholder="Your state..."></label>
+		
+		<input type="submit" value="click here...">
+	</form>
+</div>
+</body>
+</html>
